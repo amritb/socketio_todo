@@ -1,0 +1,24 @@
+{
+  "name": "socket_dashboard",
+  "version": "0.1.0",
+  "description": "An experiment with react.js and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amritb/socketDashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amritb/socketDashboard/issues"
+  },
+  "homepage": "https://github.com/amritb/socketDashboard#readme",
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  }
+}
