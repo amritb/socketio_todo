@@ -24,6 +24,8 @@ build/Release
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
 
-public/bundle.js
+node_modules
+frontend/node_modules
+
+frontend/public/bundle.js
