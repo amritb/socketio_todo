@@ -24,6 +24,7 @@
     "webpack": "^1.9.10"
   },
   "dependencies": {
-    "flux": "^2.0.3"
+    "flux": "^2.0.3",
+    "react": "^0.13.3"
   }
 }
