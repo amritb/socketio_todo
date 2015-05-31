@@ -1,6 +1,8 @@
 var React = require('react');
 var ListContainer = require('./components/ListContainer');
 
+require('./socketio/socketio.js');
+
 var App = React.createClass({
   render: function () {
     return (

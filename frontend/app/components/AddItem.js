@@ -11,7 +11,7 @@ var AddItem = React.createClass({
   render: function () {
     return (
       <div>
-        <input type="text" ref="newItem" className="form-control" onKeyDown={this.handleSubmit} />
+        <input type="text" ref="newItem" className="form-control" onKeyDown={this.handleSubmit} placeholder="Add new todo" />
       </div>
     );
   }

@@ -3,13 +3,13 @@ var appContants = require('../constants/todoConstants');
 
 var todoActions = {
   addItem: function(item){
-    AppDispatcher.handleAction({
+    AppDispatcher.dispatch({
       actionType: appContants.ADD_ITEM,
       data: item
     });
   },
   removeItem: function (index) {
-    AppDispatcher.handleAction({
+    AppDispatcher.dispatch({
       actionType: appContants.REMOVE_ITEM,
       data: index
     });
